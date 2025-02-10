@@ -1,0 +1,1423 @@
+[
+    {
+        "name": "Arctic Fox",
+        "ids": [
+            {
+                "id": 2112,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Animal.Arctic Fox"
+        ]
+    },
+    {
+        "name": "Armored Female Husky",
+        "ids": [
+            {
+                "id": 2079,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Dog.Armored Female Husky"
+        ]
+    },
+    {
+        "name": "Armored Frost Troll",
+        "ids": [
+            {
+                "id": 2183,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Troll.Armored Frost Troll"
+        ]
+    },
+    {
+        "name": "Armored Husky",
+        "ids": [
+            {
+                "id": 2083,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Dog.Armored Husky"
+        ]
+    },
+    {
+        "name": "Armored Troll",
+        "ids": [
+            {
+                "id": 2182,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Troll.Armored Troll"
+        ]
+    },
+    {
+        "name": "Ash Guardian",
+        "ids": [
+            {
+                "id": 2049,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Conjure.Ash Guardian"
+        ]
+    },
+    {
+        "name": "Ashhopper",
+        "ids": [
+            {
+                "id": 2050,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Monsters.Ashhopper"
+        ]
+    },
+    {
+        "name": "Ashman",
+        "ids": [
+            {
+                "id": 2051,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Monsters.Ashman"
+        ]
+    },
+    {
+        "name": "Bear",
+        "ids": [
+            {
+                "id": 2055,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            },
+            {
+                "id": 2056,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            },
+            {
+                "id": 2058,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Animal.Bear"
+        ]
+    },
+    {
+        "name": "Black Wolf",
+        "ids": [
+            {
+                "id": 2200,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Wolf.Black Wolf"
+        ]
+    },
+    {
+        "name": "Boar",
+        "ids": [
+            {
+                "id": 2059,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Animal.Boar"
+        ]
+    },
+    {
+        "name": "Boar Rider",
+        "ids": [
+            {
+                "id": 2060,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Riekling.Boar Rider"
+        ]
+    },
+    {
+        "name": "Burnt Spriggan",
+        "ids": [
+            {
+                "id": 2177,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Spriggan.Burnt Spriggan"
+        ]
+    },
+    {
+        "name": "Chaurus",
+        "ids": [
+            {
+                "id": 2062,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Chaurus.Chaurus"
+        ]
+    },
+    {
+        "name": "Chaurus Hunter",
+        "ids": [
+            {
+                "id": 2063,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Chaurus.Chaurus Hunter"
+        ]
+    },
+    {
+        "name": "Chaurus Reaper",
+        "ids": [
+            {
+                "id": 2064,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Chaurus.Chaurus Reaper"
+        ]
+    },
+    {
+        "name": "Chicken",
+        "ids": [
+            {
+                "id": 2065,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Animal.Chicken"
+        ]
+    },
+    {
+        "name": "Cow",
+        "ids": [
+            {
+                "id": 2066,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Animal.Cow"
+        ]
+    },
+    {
+        "name": "Death Hound",
+        "ids": [
+            {
+                "id": 2067,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Dog.Death Hound",
+            ".Undead.Death Hound"
+        ]
+    },
+    {
+        "name": "Deer",
+        "ids": [
+            {
+                "id": 2074,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            },
+            {
+                "id": 2076,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            },
+            {
+                "id": 2069,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            },
+            {
+                "id": 2072,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Deer.Deer"
+        ]
+    },
+    {
+        "name": "Dog",
+        "ids": [
+            {
+                "id": 2082,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Dog.Dog"
+        ]
+    },
+    {
+        "name": "Dragon",
+        "ids": [
+            {
+                "id": 2097,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Dragon.Dragon"
+        ]
+    },
+    {
+        "name": "Dragon Priest",
+        "ids": [
+            {
+                "id": 2087,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            },
+            {
+                "id": 2088,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            },
+            {
+                "id": 2089,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            },
+            {
+                "id": 2090,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Undead.Dragon Priest"
+        ]
+    },
+    {
+        "name": "Dragon Priestess",
+        "ids": [
+            {
+                "id": 2091,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            },
+            {
+                "id": 2092,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            },
+            {
+                "id": 2093,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            },
+            {
+                "id": 2094,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Undead.Dragon Priestess"
+        ]
+    },
+    {
+        "name": "Draugr",
+        "ids": [
+            {
+                "id": 2101,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Undead.Draugr"
+        ]
+    },
+    {
+        "name": "Dwarven Ballista",
+        "ids": [
+            {
+                "id": 2102,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Dwarven.Dwarven Ballista"
+        ]
+    },
+    {
+        "name": "Dwarven Centurion",
+        "ids": [
+            {
+                "id": 2103,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Dwarven.Dwarven Centurion"
+        ]
+    },
+    {
+        "name": "Dwarven Forgemaster",
+        "ids": [
+            {
+                "id": 2105,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Dwarven.Dwarven Forgemaster"
+        ]
+    },
+    {
+        "name": "Dwarven Sphere",
+        "ids": [
+            {
+                "id": 2106,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Dwarven.Dwarven Sphere"
+        ]
+    },
+    {
+        "name": "Dwarven Spider",
+        "ids": [
+            {
+                "id": 2107,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Dwarven.Dwarven Spider"
+        ]
+    },
+    {
+        "name": "Elk",
+        "ids": [
+            {
+                "id": 2068,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            },
+            {
+                "id": 2070,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Animal.Elk"
+        ]
+    },
+    {
+        "name": "Falmer Shadowmaster",
+        "ids": [
+            {
+                "id": 2109,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Falmer.Falmer Shadowmaster"
+        ]
+    },
+    {
+        "name": "Female Dog",
+        "ids": [
+            {
+                "id": 2078,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Dog.Female Dog"
+        ]
+    },
+    {
+        "name": "Female Draugr",
+        "ids": [
+            {
+                "id": 2099,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Undead.Female Draugr"
+        ]
+    },
+    {
+        "name": "Female Falmer",
+        "ids": [
+            {
+                "id": 2108,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Falmer.Female Falmer"
+        ]
+    },
+    {
+        "name": "Female Goat",
+        "ids": [
+            {
+                "id": 2126,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Animal.Female Goat"
+        ]
+    },
+    {
+        "name": "Female Horse",
+        "ids": [
+            {
+                "id": 2131,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            },
+            {
+                "id": 2133,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            },
+            {
+                "id": 2132,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            },
+            {
+                "id": 2134,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            },
+            {
+                "id": 2135,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Animal.Female Horse"
+        ]
+    },
+    {
+        "name": "Female Husky",
+        "ids": [
+            {
+                "id": 2080,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Dog.Female Husky"
+        ]
+    },
+    {
+        "name": "Female Werewolf",
+        "ids": [
+            {
+                "id": 2191,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Were.Female Werewolf"
+        ]
+    },
+    {
+        "name": "Fire Wraith",
+        "ids": [
+            {
+                "id": 2207,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Undead.Fire Wraith"
+        ]
+    },
+    {
+        "name": "Flame Atronach",
+        "ids": [
+            {
+                "id": 2052,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Conjure.Flame Atronach",
+            ".Daedra.Flame Atronach"
+        ]
+    },
+    {
+        "name": "Frost Atronach",
+        "ids": [
+            {
+                "id": 2053,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Conjure.Frost Atronach",
+            ".Daedra.Frost Atronach"
+        ]
+    },
+    {
+        "name": "Frost Troll",
+        "ids": [
+            {
+                "id": 2185,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Troll.Frost Troll"
+        ]
+    },
+    {
+        "name": "Gargoyle",
+        "ids": [
+            {
+                "id": 2116,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            },
+            {
+                "id": 2117,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            },
+            {
+                "id": 2114,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            },
+            {
+                "id": 2115,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Monsters.Gargoyle"
+        ]
+    },
+    {
+        "name": "Giant",
+        "ids": [
+            {
+                "id": 2119,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            },
+            {
+                "id": 2123,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            },
+            {
+                "id": 2120,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            },
+            {
+                "id": 2121,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Monsters.Giant"
+        ]
+    },
+    {
+        "name": "Giant Frostbite Spider",
+        "ids": [
+            {
+                "id": 2171,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            },
+            {
+                "id": 2168,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Spider.Giant Frostbite Spider"
+        ]
+    },
+    {
+        "name": "Giantess",
+        "ids": [
+            {
+                "id": 2122,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Monsters.Giantess"
+        ]
+    },
+    {
+        "name": "Goat",
+        "ids": [
+            {
+                "id": 2125,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Animal.Goat"
+        ]
+    },
+    {
+        "name": "Hagraven",
+        "ids": [
+            {
+                "id": 2127,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            },
+            {
+                "id": 2128,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Monsters.Hagraven"
+        ]
+    },
+    {
+        "name": "Hallowed Draugr",
+        "ids": [
+            {
+                "id": 2100,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Undead.Hallowed Draugr"
+        ]
+    },
+    {
+        "name": "Hermaphrodite Werewolf (Dom)",
+        "ids": [
+            {
+                "id": 2192,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Were.Hermaphrodite Werewolf (Dom)"
+        ]
+    },
+    {
+        "name": "Hermaphrodite Werewolf (Sub)",
+        "ids": [
+            {
+                "id": 2194,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Were.Hermaphrodite Werewolf (Sub)"
+        ]
+    },
+    {
+        "name": "Horker",
+        "ids": [
+            {
+                "id": 2130,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Animal.Horker"
+        ]
+    },
+    {
+        "name": "Horse",
+        "ids": [
+            {
+                "id": 2137,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            },
+            {
+                "id": 2138,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            },
+            {
+                "id": 2139,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            },
+            {
+                "id": 2141,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            },
+            {
+                "id": 2142,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            },
+            {
+                "id": 2140,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Animal.Horse"
+        ]
+    },
+    {
+        "name": "Husky",
+        "ids": [
+            {
+                "id": 2084,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Dog.Husky"
+        ]
+    },
+    {
+        "name": "Ice Wolf",
+        "ids": [
+            {
+                "id": 2202,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Wolf.Ice Wolf"
+        ]
+    },
+    {
+        "name": "Ice Wraith",
+        "ids": [
+            {
+                "id": 2205,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Undead.Ice Wraith"
+        ]
+    },
+    {
+        "name": "Large Frostbite Spider",
+        "ids": [
+            {
+                "id": 2173,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            },
+            {
+                "id": 2169,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Spider.Large Frostbite Spider"
+        ]
+    },
+    {
+        "name": "Lurker",
+        "ids": [
+            {
+                "id": 2144,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Daedra.Lurker"
+        ]
+    },
+    {
+        "name": "Mammoth",
+        "ids": [
+            {
+                "id": 2147,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            },
+            {
+                "id": 2145,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Animal.Mammoth"
+        ]
+    },
+    {
+        "name": "Mudcrab",
+        "ids": [
+            {
+                "id": 2148,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Animal.Mudcrab"
+        ]
+    },
+    {
+        "name": "Necro Priest",
+        "ids": [
+            {
+                "id": 2149,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Undead.Necro Priest"
+        ]
+    },
+    {
+        "name": "Netch",
+        "ids": [
+            {
+                "id": 2150,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Animal.Netch"
+        ]
+    },
+    {
+        "name": "Rabbit",
+        "ids": [
+            {
+                "id": 2151,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Animal.Rabbit"
+        ]
+    },
+    {
+        "name": "Red Fox",
+        "ids": [
+            {
+                "id": 2111,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Animal.Red Fox"
+        ]
+    },
+    {
+        "name": "Red Wolf",
+        "ids": [
+            {
+                "id": 2204,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Wolf.Red Wolf"
+        ]
+    },
+    {
+        "name": "Riekling",
+        "ids": [
+            {
+                "id": 2152,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            },
+            {
+                "id": 2153,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            },
+            {
+                "id": 2154,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            },
+            {
+                "id": 2155,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Riekling.Riekling"
+        ]
+    },
+    {
+        "name": "Riekling Chief",
+        "ids": [
+            {
+                "id": 2156,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Riekling.Riekling Chief"
+        ]
+    },
+    {
+        "name": "Sabre Cat",
+        "ids": [
+            {
+                "id": 2158,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Sabre Cat.Sabre Cat"
+        ]
+    },
+    {
+        "name": "Seeker",
+        "ids": [
+            {
+                "id": 2162,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Daedra.Seeker"
+        ]
+    },
+    {
+        "name": "Skeever",
+        "ids": [
+            {
+                "id": 2163,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Animal.Skeever"
+        ]
+    },
+    {
+        "name": "Skeletal Dragon",
+        "ids": [
+            {
+                "id": 2098,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Dragon.Skeletal Dragon",
+            ".Skeletal.Skeletal Dragon"
+        ]
+    },
+    {
+        "name": "Skeleton",
+        "ids": [
+            {
+                "id": 2166,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Skeletal.Skeleton"
+        ]
+    },
+    {
+        "name": "Slaughterfish",
+        "ids": [
+            {
+                "id": 2167,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Animal.Slaughterfish"
+        ]
+    },
+    {
+        "name": "Small Frostbite Spider",
+        "ids": [
+            {
+                "id": 2175,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            },
+            {
+                "id": 2170,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Spider.Small Frostbite Spider"
+        ]
+    },
+    {
+        "name": "Snow Sabre Cat",
+        "ids": [
+            {
+                "id": 2160,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Sabre Cat.Snow Sabre Cat"
+        ]
+    },
+    {
+        "name": "Spectral Warhound",
+        "ids": [
+            {
+                "id": 2086,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Dog.Spectral Warhound"
+        ]
+    },
+    {
+        "name": "Spriggan",
+        "ids": [
+            {
+                "id": 2178,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Spriggan.Spriggan"
+        ]
+    },
+    {
+        "name": "Spriggan Earth Mother",
+        "ids": [
+            {
+                "id": 2179,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Spriggan.Spriggan Earth Mother"
+        ]
+    },
+    {
+        "name": "Spriggan Matron",
+        "ids": [
+            {
+                "id": 2180,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Spriggan.Spriggan Matron"
+        ]
+    },
+    {
+        "name": "Storm Atronach",
+        "ids": [
+            {
+                "id": 2054,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Conjure.Storm Atronach",
+            ".Daedra.Storm Atronach"
+        ]
+    },
+    {
+        "name": "Troll",
+        "ids": [
+            {
+                "id": 2184,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Troll.Troll"
+        ]
+    },
+    {
+        "name": "Udefrykte",
+        "ids": [
+            {
+                "id": 2187,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Troll.Udefrykte"
+        ]
+    },
+    {
+        "name": "Vale Sabre Cat",
+        "ids": [
+            {
+                "id": 2161,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Sabre Cat.Vale Sabre Cat"
+        ]
+    },
+    {
+        "name": "Vampire Falmer",
+        "ids": [
+            {
+                "id": 2110,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Falmer.Vampire Falmer",
+            ".Vampire.Vampire Falmer"
+        ]
+    },
+    {
+        "name": "Vampire Lord",
+        "ids": [
+            {
+                "id": 2188,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Vampire.Vampire Lord"
+        ]
+    },
+    {
+        "name": "Vampire Queen",
+        "ids": [
+            {
+                "id": 2189,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Vampire.Vampire Queen"
+        ]
+    },
+    {
+        "name": "Werebear",
+        "ids": [
+            {
+                "id": 2190,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Were.Werebear"
+        ]
+    },
+    {
+        "name": "Werewolf",
+        "ids": [
+            {
+                "id": 2195,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Were.Werewolf"
+        ]
+    },
+    {
+        "name": "White Doe",
+        "ids": [
+            {
+                "id": 2073,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Deer.White Doe"
+        ]
+    },
+    {
+        "name": "White Skeever",
+        "ids": [
+            {
+                "id": 2165,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Animal.White Skeever"
+        ]
+    },
+    {
+        "name": "White Stag",
+        "ids": [
+            {
+                "id": 2077,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Deer.White Stag"
+        ]
+    },
+    {
+        "name": "Wisp",
+        "ids": [
+            {
+                "id": 2196,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            },
+            {
+                "id": 2199,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Whisp.Wisp"
+        ]
+    },
+    {
+        "name": "Wispmother",
+        "ids": [
+            {
+                "id": 2197,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 0
+            }
+        ],
+        "paths": [
+            ".Whisp.Wispmother"
+        ]
+    },
+    {
+        "name": "Wolf Familiar",
+        "ids": [
+            {
+                "id": 2201,
+                "plugin": "CreatureSummoner.esp",
+                "sexable": 1
+            }
+        ],
+        "paths": [
+            ".Wolf.Wolf Familiar"
+        ]
+    }
+]

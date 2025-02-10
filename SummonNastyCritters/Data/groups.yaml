@@ -1,0 +1,147 @@
+- name: Animal
+  members:
+  - Horse
+  - Bear
+  - Horker
+  - Rabbit
+  - Red Fox
+  - Mudcrab
+  - Mammoth
+  - Netch
+  - Skeever
+  - Slaughterfish
+  - White Skeever
+  - Elk
+  - Goat
+  - Boar
+  - Female Goat
+  - Female Horse
+  - Cow
+  - Chicken
+  - Arctic Fox
+
+- name: Conjure
+  members:
+  - Ash Guardian
+  - Frost Atronach
+  - Flame Atronach
+  - Storm Atronach
+
+- name: Daedra
+  members:
+  - Frost Atronach
+  - Flame Atronach
+  - Storm Atronach
+  - Seeker
+  - Lurker
+- name: Deer
+  members:
+  - Deer
+  - White Doe
+  - White Stag
+- name: Dragon
+  members:
+  - Dragon
+  - Skeletal Dragon
+- name: Dog
+  members:
+  - Death Hound
+  - Dog
+  - Armored Female Husky
+  - Armored Husky
+  - Husky
+  - Female Dog
+  - Female Husky
+  - Spectral Warhound
+- name: Dwarven
+  members:
+  - Dwarven Centurion
+  - Dwarven Forgemaster
+  - Dwarven Spider
+  - Dwarven Sphere
+  - Dwarven Ballista
+
+- name: Sabre Cat
+  members:
+  - Sabre Cat
+  - Snow Sabre Cat
+  - Vale Sabre Cat
+- name: Spider
+  members:
+  - Giant Frostbite Spider
+  - Large Frostbite Spider
+  - Small Frostbite Spider
+- name: Wolf
+  members:
+  - Ice Wolf
+  - Black Wolf
+  - Red Wolf
+  - Wolf Familiar
+
+- name: Falmer
+  members: 
+  - Vampire Falmer
+  - Female Falmer
+  - Falmer Shadowmaster
+- name: Spriggan
+  members:
+  - Spriggan
+  - Burnt Spriggan
+  - Spriggan Earth Mother
+  - Spriggan Matron
+- name: Troll
+  members:
+  - Armored Troll
+  - Armored Frost Troll
+  - Troll
+  - Frost Troll
+  - Udefrykte
+- name: Were
+  members:
+  - Female Werewolf
+  - Hermaphrodite Werewolf (Dom)
+  - Hermaphrodite Werewolf (Sub)
+  - Werewolf
+  - Werebear
+- name: Chaurus
+  members:
+  - Chaurus
+  - Chaurus Hunter
+  - Chaurus Reaper
+- name: Riekling
+  members:
+  - Riekling Chief
+  - Riekling
+  - Boar Rider
+- name: Monsters
+  members:
+  - Ashman
+  - Ashhopper
+  - Gargoyle
+  - Giant
+  - Giantess
+  - Hagraven
+- name: Undead
+  members:
+    - Death Hound
+    - Dragon Priest
+    - Dragon Priestess
+    - Ice Wraith
+    - Fire Wraith
+    - Necro Priest
+    - Female Draugr
+    - Hallowed Draugr
+    - Draugr
+- name: Vampire
+  members: 
+  - Vampire Lord
+  - Vampire Falmer
+  - Vampire Queen
+- name: Skeletal
+  members:
+  - Skeleton
+  - Skeletal Dragon
+- name: Whisp
+  members:
+  - Wisp
+  - Wispmother

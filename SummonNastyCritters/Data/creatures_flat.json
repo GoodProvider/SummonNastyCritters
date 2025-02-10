@@ -1,0 +1,962 @@
+[
+  {
+    "id": "536872979",
+    "Name": "Summoned Death Hound",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873096",
+    "Name": "Summoned Troll",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873115",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873049",
+    "Name": "Summoned Horse",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873107",
+    "Name": "Summoned Werewolf",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873013",
+    "Name": "Summoned Draugr",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873021",
+    "Name": "Summoned Falmer Shadowmaster",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872974",
+    "Name": "Summoned Chaurus",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873087",
+    "Name": "Summoned Small Frostbite Spider",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872967",
+    "Name": "Summoned Bear",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873031",
+    "Name": "Summoned Giant",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873071",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872994",
+    "Name": "Summoned Dog",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873100",
+    "Name": "Summoned Vampire Lord",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873028",
+    "Name": "Summoned Gargoyle",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873074",
+    "Name": "Summoned Seeker",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873056",
+    "Name": "Summoned Lurker",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 0
+  },
+  {
+    "id": "536873068",
+    "Name": "Summoned Riekling Chief",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873064",
+    "Name": "Summoned Riekling",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873102",
+    "Name": "Summoned Werebear",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872963",
+    "Name": "Summoned Ashman",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872964",
+    "Name": "Summoned Flame Atronach",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873059",
+    "Name": "Summoned Mammoth",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872996",
+    "Name": "Summoned Husky",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872995",
+    "Name": "Summoned Armored Husky",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873113",
+    "Name": "Summoned Wolf Familiar",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873103",
+    "Name": "Summoned Female Werewolf",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873090",
+    "Name": "Summoned Spriggan",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 0
+  },
+  {
+    "id": "536873091",
+    "Name": "Summoned Spriggan Earth Mother",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873094",
+    "Name": "Summoned Armored Troll",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873120",
+    "Name": "edit CreatureDragonEffect to use",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873097",
+    "Name": "Summoned Frost Troll",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873019",
+    "Name": "Summoned Dwarven Spider",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 0
+  },
+  {
+    "id": "536873023",
+    "Name": "Summoned Red Fox",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873055",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873075",
+    "Name": "Summoned Skeever",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872962",
+    "Name": "Summoned Ashhopper",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872975",
+    "Name": "Summoned Chaurus Hunter",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 0
+  },
+  {
+    "id": "536872973",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872986",
+    "Name": "Summoned Deer",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873037",
+    "Name": "Summoned Goat",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 0
+  },
+  {
+    "id": "536873062",
+    "Name": "Summoned Netch",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873109",
+    "Name": "Summoned Wispmother",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873042",
+    "Name": "Summoned Horker",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873041",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872978",
+    "Name": "Summoned Cow",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 0
+  },
+  {
+    "id": "536872985",
+    "Name": "Summoned White Doe",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873063",
+    "Name": "Summoned Rabbit",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873015",
+    "Name": "Summoned Dwarven Centurion",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872977",
+    "Name": "Summoned Chicken",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 0
+  },
+  {
+    "id": "536873101",
+    "Name": "Summoned Vampire Queen",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872976",
+    "Name": "Summoned Chaurus Reaper",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 0
+  },
+  {
+    "id": "536873008",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873061",
+    "Name": "Summoned Necro Priest",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873085",
+    "Name": "Summoned Large Frostbite Spider",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873083",
+    "Name": "Summoned Giant Frostbite Spider",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873114",
+    "Name": "Summoned Ice Wolf",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873116",
+    "Name": "Summoned Red Wolf",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873112",
+    "Name": "Summoned Black Wolf",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873011",
+    "Name": "Summoned Female Draugr",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873020",
+    "Name": "Summoned Female Falmer",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873048",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873043",
+    "Name": "Summoned Female Horse",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873045",
+    "Name": "Summoned Female Horse",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873044",
+    "Name": "Summoned Female Horse",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873046",
+    "Name": "Summoned Female Horse",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873047",
+    "Name": "Summoned Female Horse",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873014",
+    "Name": "Summoned Dwarven Ballista",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872968",
+    "Name": "Summoned Bear",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872970",
+    "Name": "Summoned Bear",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872969",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873050",
+    "Name": "Summoned Horse",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873051",
+    "Name": "Summoned Horse",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873053",
+    "Name": "Summoned Horse",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873054",
+    "Name": "Summoned Horse",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873070",
+    "Name": "Summoned Sabre Cat",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873072",
+    "Name": "Summoned Snow Sabre Cat",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873073",
+    "Name": "Summoned Vale Sabre Cat",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873099",
+    "Name": "Summoned Udefrykte",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873024",
+    "Name": "Summoned Arctic Fox",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872988",
+    "Name": "Summoned Deer",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872980",
+    "Name": "Summoned Elk",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872989",
+    "Name": "Summoned White Stag",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872987",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873108",
+    "Name": "Summoned Wisp",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873117",
+    "Name": "Summoned Ice Wraith",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873018",
+    "Name": "Summoned Dwarven Sphere",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873077",
+    "Name": "Summoned White Skeever",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873076",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873098",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873025",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873009",
+    "Name": "Summoned Dragon",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873095",
+    "Name": "Summoned Armored Frost Troll",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873119",
+    "Name": "Summoned Fire Wraith",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873118",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873111",
+    "Name": "Summoned Wisp",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873110",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873079",
+    "Name": "Summoned Slaughterfish",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873060",
+    "Name": "Summoned Mudcrab",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873082",
+    "Name": "Summoned Small Frostbite Spider",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873081",
+    "Name": "Summoned Large Frostbite Spider",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873080",
+    "Name": "Summoned Giant Frostbite Spider",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873084",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873086",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873088",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873034",
+    "Name": "Summoned Giantess",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873035",
+    "Name": "Summoned Giant",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872998",
+    "Name": "Summoned Spectral Warhound",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873032",
+    "Name": "Summoned Giant",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873033",
+    "Name": "Summoned Giant",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873036",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873012",
+    "Name": "Summoned Hallowed Draugr",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873078",
+    "Name": "Summoned Skeleton",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872965",
+    "Name": "Summoned Frost Atronach",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873010",
+    "Name": "Summoned Skeletal Dragon",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873022",
+    "Name": "Summoned Vampire Falmer",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872990",
+    "Name": "Summoned Female Dog",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872992",
+    "Name": "Summoned Female Husky",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872991",
+    "Name": "Summoned Armored Female Husky",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872966",
+    "Name": "Summoned Storm Atronach",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872961",
+    "Name": "Summoned Ash Guardian",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873052",
+    "Name": "Summoned Horse",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873089",
+    "Name": "Summoned Burnt Spriggan",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873092",
+    "Name": "Summoned Spriggan Matron",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873093",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872972",
+    "Name": "Summoned Boar Rider",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872971",
+    "Name": "Summoned Boar",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873029",
+    "Name": "Summoned Gargoyle",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873026",
+    "Name": "Summoned Gargoyle",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873027",
+    "Name": "Summoned Gargoyle",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873030",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873039",
+    "Name": "Summoned Hagraven",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873040",
+    "Name": "Summoned Hagraven",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872999",
+    "Name": "Summoned Dragon Priest",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873000",
+    "Name": "Summoned Dragon Priest",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873001",
+    "Name": "Summoned Dragon Priest",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873002",
+    "Name": "Summoned Dragon Priest",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873003",
+    "Name": "Summoned Dragon Priestess",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873004",
+    "Name": "Summoned Dragon Priestess",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873005",
+    "Name": "Summoned Dragon Priestess",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873006",
+    "Name": "Summoned Dragon Priestess",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873007",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873038",
+    "Name": "Summoned Female Goat",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873104",
+    "Name": "Summoned Hermaphrodite Werewolf (Dom)",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873106",
+    "Name": "Summoned Hermaphrodite Werewolf (Sub)",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873105",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873016",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873017",
+    "Name": "Summoned Dwarven Forgemaster",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873069",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873065",
+    "Name": "Summoned Riekling",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873066",
+    "Name": "Summoned Riekling",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873067",
+    "Name": "Summoned Riekling",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872997",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872993",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873057",
+    "Name": "Summoned Mammoth",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536873058",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872983",
+    "Name": "",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872982",
+    "Name": "Summoned Elk",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 1
+  },
+  {
+    "id": "536872981",
+    "Name": "Summoned Deer",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 0
+  },
+  {
+    "id": "536872984",
+    "Name": "Summoned Deer",
+    "plugin": "CreatureSummoner.esp",
+    "sexable": 0
+  }
+]
