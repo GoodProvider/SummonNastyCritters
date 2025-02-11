@@ -6,7 +6,7 @@ CREATURES_FLAT_FILE=SummonNastyCritters/data/creatures_flat.json
 CREATURES_FILE=SummonNastyCritters/data/creatures.json
 UNSEXABLE_FILE=SummonNastyCritters/data/unsexable.yaml
 
-VERSION=1.0.0
+VERSION=1.0.1
 RELEASE_FILE=SummonNastyCritters ${VERSION}.zip
 
 build: ${BUILD_SCRIPT} ${GROUPS_FILE} ${CREATURES_FLAT_FILE} ${UNSEXABLE_FILE}

@@ -4,9 +4,14 @@ Faction Property SummonNastyCrittersFaction Auto
 
 ReferenceAlias[] Property critter_refs Auto
 
+int DOMO1_ID = 0x00000D61
+int DOM02Topic_ID = 0x000ED87C
+String DOM_FILE = "DiaryOfMine.esm"
+
 import JContainers
 import uiextensions
 import Utility
+import DOM_API
 
 int creatures
 int creatures_all
@@ -119,8 +124,28 @@ Actor function GetCreatureFromVictum(Actor victum)
         ; JValue.writeToFile(creature_victum, "data/creature_victum.json")
 
         critter_refs[i].ForceRefTo(creature)
-        (critter_refs[i] as SummonNastyCritters_Critter).StartSex(victum)
         creature.SetActorValue("health",95)
+
+        DOM_API api = Game.GetFormFromFile(DOMO1_ID,DOM_FILE) as DOM_API
+        if api != None && api.IsDOMSlave(victum) 
+            DOM_Actor slave = api.GetDOMActor(victum) as DOM_Actor
+
+            DOM_KEYS keys = Game.GetFormFromFile(DOM02Topic_ID,DOM_FILE) as DOM_KEYS
+            string reason
+            int imenu = keys.ShowDOMPunishmentMenu(victum)
+            if imenu < 0
+                reason = ""
+            else
+                reason = keys.selectPunishmentReason[imenu]
+                if reason == ""
+                    Debug.Trace("WARNING: Wheel menu returned invalid punishment reason")
+                endif
+            endif
+
+            slave.Anim_SexlabWithNPC(creature, "", True, reason)
+        else
+            (critter_refs[i] as SummonNastyCritters_Critter).StartSex(victum)
+        endif 
         return creature
     endif 
     return None

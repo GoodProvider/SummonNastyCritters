@@ -25,7 +25,13 @@
         <Import>@ModsFolder\SexLabFrameworkAE_v166b\scripts\Source</Import>
         <Import>@ModsFolder\UIExtensions\scripts\Source</Import>
         <Import>@ModsFolder\powerofthree's Papyrus Extender\Source\scripts</Import>
+        <Import>@ModsFolder\SummonNastyCritters\Scripts\Headers</Import>
         <!-- 
+        <Import>@ModsFolder\PAH Diary Of Mine\Scripts\Source</Import>
+            <Import>@ModsFolder\MCM Recorder\Scripts\Source</Import>
+                <Import>@ModsFolder/SkyUI_5_2_SE-12604-5-2SE/scripts/Source</Import>
+                <Import>@ModsFolder/PapyrusUtil SE - Modders Scripting Utility Functions\Scripts\Source</Import>
+                <Import>@ModsFolder/Paradise Halls Enhanced (PAHE) SSE/scripts/source</Import>
 
         <Import>@ModsFolder\FINS Creature Pack SE\Scripts\Source</Import>
         <Import>@ModsFolder\SkyUI_5.1_SDK\Scripts\Source</Import>
