@@ -13,7 +13,9 @@ Event OnEffectStart(Actor victum, Actor caster)
 
     ; Update creature list if changed
     if CreatureList.CreaturesMD5Changed()
-       CreatureList.reload()
+       if !CreatureList.Rebuild()
+            return 
+       endif
     endif
 
     ; Is a nasty critter

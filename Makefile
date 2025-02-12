@@ -8,7 +8,9 @@ GROUPS_FILE=SummonNastyCritters/data/groups.yaml
 CREATURES_FLAT_FILE=SummonNastyCritters/data/creatures_flat.json
 CREATURES_FILE=SummonNastyCritters/data/creatures.json
 UNSEXABLE_FILE=SummonNastyCritters/data/unsexable.yaml
-A=$(shell md5 -q ${CREATURES_FILE})
+
+MD5=$(shell CertUtil -hashfile ${CREATURES_FILE} MD5)
+
 
 RELEASE_FILE=SummonNastyCritters ${VERSION}.zip
 
@@ -17,14 +19,9 @@ build: ${BUILD_SCRIPT} ${GROUPS_FILE} ${CREATURES_FLAT_FILE} ${UNSEXABLE_FILE}
 
 release:
 	python3 ./p_scripts/fomod-info.py -v ${VERSION} -n '${NAME}' -o fomod/info.xml fomod-source/info.xml
-	echo "${CREATURES_MD5}"
-	echo '{\
-	"name":"${NAME}",\n\
-	"version":"${VERSION},"\n\
-	"creatures_md5":"${A}"\n\
-}'> SummonNastyCritters/info.json
-	rm -f '${RELEASE_FILE}'
-	7z a '${RELEASE_FILE}' fomod Scripts SummonNastyCritters/info.json SummonNastyCritters/data/creatures.json SummonNastyCritters.esp
+	python3 ./p_scripts/info.py -v ${VERSION} -n '${NAME}' -o SummonNastyCritters/info.xml ${CREATURES_FILE}
+	if exist '${RELEASE_file}' rm /Q /S '${RELEASE_FILE}'
+	7z a '${RELEASE_FILE}' fomod Scripts SummonNastyCritters\info.json SummonNastyCritters\data\creatures.json SummonNastyCritters.esp
 
 
 #download: htmls ${DOWN_SCRIPT}

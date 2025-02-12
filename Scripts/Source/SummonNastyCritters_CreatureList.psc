@@ -28,10 +28,10 @@ event OnInit()
     Rebuild()
 EndEvent
 
-function Rebuild(Bool verbose=false)
-    if Game.GetModByName("CreatureSummon.esp") == 255
-        Debug.TaceandBox("Failed to find plugin CreatureSummon.esp. Nothing will happen.")
-        return 
+Bool function Rebuild(Bool verbose=false)
+    if Game.GetModByName("CreatureSummoner.esp") == 255
+        Debug.TraceAndBox("Failed to find plugin CreatureSummon.esp. Nothing will happen.")
+        return False
     endif
 
     if info != 0
@@ -97,13 +97,14 @@ function Rebuild(Bool verbose=false)
         i += 1 
     endwhile 
     Debug.Notification("Summon Nasty Critters total "+num_creatures+"/"+num_creatures_all)
+    return True
 endFunction 
 
 Bool Function CreaturesMD5Changed()
     if info == 0
        return true
     else
-       int i = JValue.readFromFile(CreatureList.info_file)
+       int i = JValue.readFromFile(info_file)
        if JMap.getStr(i,"creatures_md5") != JMap.getStr(info,"creatures_md5")
           return true
        endif 
