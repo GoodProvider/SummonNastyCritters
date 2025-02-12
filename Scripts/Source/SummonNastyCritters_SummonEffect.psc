@@ -11,6 +11,11 @@ Event OnEffectStart(Actor victum, Actor caster)
     ; ActorBase creatureBase = (game.GetFormFromFile(0x01B657,"Dragonborn.esm") as ActorBase) ; ash
     ; ActorBase creatureBase = (game.GetFormFromFile(0x00023ABB,"Skyrim.esm") as ActorBase) ; troll
 
+    ; Update creature list if changed
+    if CreatureList.CreaturesMD5Changed()
+       CreatureList.reload()
+    endif
+
     ; Is a nasty critter
     if victum.IsInFaction(SummonNastyCrittersFaction) 
         DeBug.Notification("Bansihing:"+creature.GetLeveledActorBase().GetName())

@@ -13,10 +13,12 @@ import uiextensions
 import Utility
 import DOM_API
 
+int info
 int creatures
 int creatures_all
 int creature_victum
 
+String info_file = "Data/SummonNastyCritters/info.json"
 String idName = "SummonNastyCritters"
 String creatures_file = "Data/SummonNastyCritters/Data/creatures.json"
 
@@ -27,6 +29,18 @@ event OnInit()
 EndEvent
 
 function Rebuild(Bool verbose=false)
+    if Game.GetModByName("CreatureSummon.esp") == 255
+        Debug.TaceandBox("Failed to find plugin CreatureSummon.esp. Nothing will happen.")
+        return 
+    endif
+
+    if info != 0
+        JValue.release(info)
+        info = 0
+    endif
+    info = JValue.readFromFile(info_file)
+    JValue.retain(info,idName)
+
     if creatures == 0
         creatures = JMap.object()
         JValue.retain(creatures,idName)
@@ -84,6 +98,18 @@ function Rebuild(Bool verbose=false)
     endwhile 
     Debug.Notification("Summon Nasty Critters total "+num_creatures+"/"+num_creatures_all)
 endFunction 
+
+Bool Function CreaturesMD5Changed()
+    if info == 0
+       return true
+    else
+       int i = JValue.readFromFile(CreatureList.info_file)
+       if JMap.getStr(i,"creatures_md5") != JMap.getStr(info,"creatures_md5")
+          return true
+       endif 
+    endif 
+    return false
+EndFunction
 
 int function AddCreature(int cs, int c, int actors)
     if JArray.count(actors) > 0
