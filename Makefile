@@ -19,7 +19,7 @@ build: ${BUILD_SCRIPT} ${GROUPS_FILE} ${CREATURES_FLAT_FILE} ${UNSEXABLE_FILE}
 
 release:
 	python3 ./p_scripts/fomod-info.py -v ${VERSION} -n '${NAME}' -o fomod/info.xml fomod-source/info.xml
-	python3 ./p_scripts/info.py -v ${VERSION} -n '${NAME}' -o SummonNastyCritters/info.xml ${CREATURES_FILE}
+	python3 ./p_scripts/info.py -v ${VERSION} -n '${NAME}' -o SummonNastyCritters/info.json ${CREATURES_FILE}
 	if exist '${RELEASE_file}' rm /Q /S '${RELEASE_FILE}'
 	7z a '${RELEASE_FILE}' fomod Scripts SummonNastyCritters\info.json SummonNastyCritters\data\creatures.json SummonNastyCritters.esp
 
