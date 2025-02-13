@@ -170,6 +170,7 @@ Actor function GetCreatureFromVictum(Actor victum)
             endif
 
             slave.Anim_SexlabWithNPC(creature, "", True, reason)
+            RegisterForModEvent("HookAnimationEnd_PostRape","NastyPostRape")
         else
             (critter_refs[i] as SummonNastyCritters_Critter).StartSex(victum)
         endif 
@@ -177,6 +178,18 @@ Actor function GetCreatureFromVictum(Actor victum)
     endif 
     return None
 EndFunction 
+
+; Our AnimationEnd hook, called from the RegisterForModEvent("HookAnimationEnd_MatchMaker", "AnimationEnd") in TriggerSex()
+;  -  HookAnimationEnd is sent by SexLab called once the sex animation has fully stopped.
+event NastyPostRape(int ThreadID, bool HasPlayer)
+	; Get the thread that triggered this event via the thread id
+	sslThreadController Thread = SexLab.GetController(ThreadID)
+	; Get our list of actors that were in this animation thread.
+	Actor[] actors = Thread.Positions
+    Actor victim = actors[0]
+    Actor creature = actors[1]
+    BanishCreature(creature)
+EndEvent
 
 Actor function GetVictumFromCreature(Actor Creature)
     return JMap.getForm(creature_victum, creature) as Actor
