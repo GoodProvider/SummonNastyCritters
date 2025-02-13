@@ -1,6 +1,7 @@
 Scriptname SummonNastyCritters_CreatureList extends Quest  
 SexLabFramework Property SexLab Auto
 Faction Property SummonNastyCrittersFaction Auto
+Faction Property DOMPlayerSlaveFaction Auto
 
 ReferenceAlias[] Property critter_refs Auto
 

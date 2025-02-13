@@ -25,6 +25,7 @@
         <Import>@ModsFolder\SexLabFrameworkAE_v166b\scripts\Source</Import>
         <Import>@ModsFolder\UIExtensions\scripts\Source</Import>
         <Import>@ModsFolder\powerofthree's Papyrus Extender\Source\scripts</Import>
+        <Import>@ModsFolder\PAH Diary Of Mine\Scripts\Source</Import>
         <!-- 
 
         <Import>@ModsFolder\FINS Creature Pack SE\Scripts\Source</Import>
