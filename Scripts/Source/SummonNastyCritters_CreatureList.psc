@@ -5,14 +5,21 @@ Faction Property DOMPlayerSlaveFaction Auto
 
 ReferenceAlias[] Property critter_refs Auto
 
+int DOMO1_ID = 0x00000D61
+int DOM02Topic_ID = 0x000ED87C
+String DOM_FILE = "DiaryOfMine.esm"
+
 import JContainers
 import uiextensions
 import Utility
+import DOM_API
 
+int info
 int creatures
 int creatures_all
 int creature_victum
 
+String info_file = "Data/SummonNastyCritters/info.json"
 String idName = "SummonNastyCritters"
 String creatures_file = "Data/SummonNastyCritters/Data/creatures.json"
 
@@ -22,7 +29,19 @@ event OnInit()
     Rebuild()
 EndEvent
 
-function Rebuild(Bool verbose=false)
+Bool function Rebuild(Bool verbose=false)
+    if Game.GetModByName("CreatureSummoner.esp") == 255
+        Debug.TraceAndBox("Failed to find plugin CreatureSummon.esp. Nothing will happen.")
+        return False
+    endif
+
+    if info != 0
+        JValue.release(info)
+        info = 0
+    endif
+    info = JValue.readFromFile(info_file)
+    JValue.retain(info,idName)
+
     if creatures == 0
         creatures = JMap.object()
         JValue.retain(creatures,idName)
@@ -79,7 +98,20 @@ function Rebuild(Bool verbose=false)
         i += 1 
     endwhile 
     Debug.Notification("Summon Nasty Critters total "+num_creatures+"/"+num_creatures_all)
+    return True
 endFunction 
+
+Bool Function CreaturesMD5Changed()
+    if info == 0
+       return true
+    else
+       int i = JValue.readFromFile(info_file)
+       if JMap.getStr(i,"creatures_md5") != JMap.getStr(info,"creatures_md5")
+          return true
+       endif 
+    endif 
+    return false
+EndFunction
 
 int function AddCreature(int cs, int c, int actors)
     if JArray.count(actors) > 0
@@ -120,12 +152,45 @@ Actor function GetCreatureFromVictum(Actor victum)
         ; JValue.writeToFile(creature_victum, "data/creature_victum.json")
 
         critter_refs[i].ForceRefTo(creature)
-        (critter_refs[i] as SummonNastyCritters_Critter).StartSex(victum)
         creature.SetActorValue("health",95)
+
+        DOM_API api = Game.GetFormFromFile(DOMO1_ID,DOM_FILE) as DOM_API
+        if api != None && api.IsDOMSlave(victum) 
+            DOM_Actor slave = api.GetDOMActor(victum) as DOM_Actor
+
+            DOM_KEYS keys = Game.GetFormFromFile(DOM02Topic_ID,DOM_FILE) as DOM_KEYS
+            string reason
+            int imenu = keys.ShowDOMPunishmentMenu(victum)
+            if imenu < 0
+                reason = ""
+            else
+                reason = keys.selectPunishmentReason[imenu]
+                if reason == ""
+                    Debug.Trace("WARNING: Wheel menu returned invalid punishment reason")
+                endif
+            endif
+
+            slave.Anim_SexlabWithNPC(creature, "", True, reason)
+            RegisterForModEvent("HookAnimationEnd_PostRape","NastyPostRape")
+        else
+            (critter_refs[i] as SummonNastyCritters_Critter).StartSex(victum)
+        endif 
         return creature
     endif 
     return None
 EndFunction 
+
+; Our AnimationEnd hook, called from the RegisterForModEvent("HookAnimationEnd_MatchMaker", "AnimationEnd") in TriggerSex()
+;  -  HookAnimationEnd is sent by SexLab called once the sex animation has fully stopped.
+event NastyPostRape(int ThreadID, bool HasPlayer)
+	; Get the thread that triggered this event via the thread id
+	sslThreadController Thread = SexLab.GetController(ThreadID)
+	; Get our list of actors that were in this animation thread.
+	Actor[] actors = Thread.Positions
+    Actor victim = actors[0]
+    Actor creature = actors[1]
+    BanishCreature(creature)
+EndEvent
 
 Actor function GetVictumFromCreature(Actor Creature)
     return JMap.getForm(creature_victum, creature) as Actor
