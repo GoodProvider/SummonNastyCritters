@@ -196,6 +196,9 @@ Actor function GetVictumFromCreature(Actor Creature)
 EndFunction 
 
 Function BanishCreature(Actor creature)
+    if !creature.IsInFaction(SummonNastyCrittersFaction) 
+        return
+    endif
     if !JMap.hasKey(creature_victum, creature)
         creature.DisableNoWait(true)
         creature.Delete()
