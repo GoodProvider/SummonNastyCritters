@@ -23,13 +23,12 @@ String info_file = "Data/SummonNastyCritters/info.json"
 String idName = "SummonNastyCritters"
 String creatures_file = "Data/SummonNastyCritters/Data/creatures.json"
 
-event OnInit()
-    creature_victum = JMap.object() 
-    JValue.retain(creature_victum,idName)
-    Rebuild()
-EndEvent
-
 Bool function Rebuild(Bool verbose=false)
+    if creature_victum == 0
+        creature_victum = JMap.object() 
+        JValue.retain(creature_victum,idName)
+    endif
+
     if Game.GetModByName("CreatureSummoner.esp") == 255
         Debug.TraceAndBox("Failed to find plugin CreatureSummon.esp. Nothing will happen.")
         return False
@@ -260,7 +259,6 @@ ActorBase Function GetCreature(int obj = 0)
     int i = 0
     int count = keys.Length
     if count < 1
-        Rebuild()
         keys = JMap.allKeysPArray(obj)
         count = keys.length
         if count < 1

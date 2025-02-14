@@ -21,6 +21,10 @@ Event OnInit()
     ;Debug.Trace("hello:"+creaturesListAll)
 EndEvent
 
+Event OnPlayerLoadGame()
+    CreatureList.reload()
+EndEvent
+
 int Function CreaturesList()
     return JValue.readFromFile(creaturesAll_file)
 EndFunction
