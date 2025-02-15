@@ -22,6 +22,7 @@ int creature_victum
 String info_file = "Data/SummonNastyCritters/info.json"
 String idName = "SummonNastyCritters"
 String creatures_file = "Data/SummonNastyCritters/Data/creatures.json"
+String creature_summoner_esp = "CreatureSummoner.esp"
 
 Bool function Rebuild(Bool verbose=false)
     if creature_victum == 0
@@ -29,8 +30,8 @@ Bool function Rebuild(Bool verbose=false)
         JValue.retain(creature_victum,idName)
     endif
 
-    if Game.GetModByName("CreatureSummoner.esp") == 255
-        Debug.TraceAndBox("Failed to find plugin CreatureSummon.esp. Nothing will happen.")
+    if Game.GetModByName(creature_summoner_esp) == 255
+        Debug.TraceAndBox("Failed to find plugin "+creature_summoner_esp+". SummonNastyCritters will be empty.")
         return False
     endif
 
@@ -130,7 +131,7 @@ int function AddCreature(int cs, int c, int actors)
     return 0
 endfunction
 
-Actor function GetCreatureFromVictum(Actor victum)
+Actor function SummonCreatureFromVictum(Actor victum)
     ; We are searching, rather them storing, becaues some race condition failed to update the critter_index :( 
     int i = 0
     int count = critter_refs.length
@@ -143,7 +144,7 @@ Actor function GetCreatureFromVictum(Actor victum)
         ; ListCritters()
         return None 
     endif 
-    ActorBase base = GetCreature(creatures) 
+    ActorBase base = SummonCreature(creatures) 
     if base != None
         Actor creature = victum.PlaceAtMe(base,1,false,false) as Actor
         JMap.setForm(creature_victum, creature, victum)
@@ -196,11 +197,20 @@ Actor function GetVictumFromCreature(Actor Creature)
 EndFunction 
 
 Function BanishCreature(Actor creature)
+    if !creature.IsInFaction(SummonNastyCrittersFaction) 
+        return
+    endif
     if !JMap.hasKey(creature_victum, creature)
         creature.DisableNoWait(true)
         creature.Delete()
         return
     endif 
+
+    sslThreadController Controller = SexLab.GetActorController(creature)
+    if Controller != None
+        Controller.EndAnimation()
+    endif 
+
     JMap.removeKey(creature_victum, creature)
     creature.DisableNoWait(true)
     creature.Delete()
@@ -238,11 +248,11 @@ function ListCritters(String buffer = "")
     Debug.MessageBox(buffer)
 endfunction
 
-ActorBase function GetCreatureAll()
-    return GetCreature(creatures_all)
+ActorBase function SummonCreatureAll()
+    return SummonCreature(creatures_all)
 endfunction
 
-ActorBase Function GetCreature(int obj = 0)
+ActorBase Function SummonCreature(int obj = 0)
     if obj == 0 
         obj = creatures 
     endif 
@@ -275,7 +285,7 @@ ActorBase Function GetCreature(int obj = 0)
     listMenu.OpenMenu()
     String name = listmenu.GetResultString()
     if name
-        return getCreature(JMap.getObj(obj,name)) 
+        return SummonCreature(JMap.getObj(obj,name)) 
     endif 
     return None
 EndFunction 

@@ -17,8 +17,6 @@ Event OnInit()
     if !PlayerRef.HasSpell(SummonNastyCritters_SummonNice)
         PlayerRef.AddSpell(SummonNastyCritters_SummonNice, true)
     endIf
-    ;int creaturesListAll = JValue.readFromFile(creaturesAll_file)
-    ;Debug.Trace("hello:"+creaturesListAll)
     CreatureList.Rebuild()
 EndEvent
 
