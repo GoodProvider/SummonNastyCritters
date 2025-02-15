@@ -22,6 +22,7 @@ int creature_victum
 String info_file = "Data/SummonNastyCritters/info.json"
 String idName = "SummonNastyCritters"
 String creatures_file = "Data/SummonNastyCritters/Data/creatures.json"
+String creature_summoner_esp = "CreatureSummoner.esp"
 
 Bool function Rebuild(Bool verbose=false)
     if creature_victum == 0
@@ -29,8 +30,8 @@ Bool function Rebuild(Bool verbose=false)
         JValue.retain(creature_victum,idName)
     endif
 
-    if Game.GetModByName("CreatureSummoner.esp") == 255
-        Debug.TraceAndBox("Failed to find plugin CreatureSummon.esp. Nothing will happen.")
+    if Game.GetModByName(creature_summoner_esp) == 255
+        Debug.TraceAndBox("Failed to find plugin "+creature_summoner_esp+". SummonNastyCritters will be empty.")
         return False
     endif
 
