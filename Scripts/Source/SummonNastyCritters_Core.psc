@@ -19,10 +19,11 @@ Event OnInit()
     endIf
     ;int creaturesListAll = JValue.readFromFile(creaturesAll_file)
     ;Debug.Trace("hello:"+creaturesListAll)
+    CreatureList.Rebuild()
 EndEvent
 
 Event OnPlayerLoadGame()
-    CreatureList.reload()
+    CreatureList.Rebuild()
 EndEvent
 
 int Function CreaturesList()
