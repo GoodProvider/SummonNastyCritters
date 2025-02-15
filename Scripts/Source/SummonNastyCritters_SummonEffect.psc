@@ -6,37 +6,39 @@ Faction Property SummonNastyCrittersFaction Auto
 SexLabFramework Property SexLab Auto
 Faction property SexLabAnimatingFaction auto hidden
 
+
 Event OnEffectStart(Actor victum, Actor caster)
     ; ActorBase creatureBase = (game.GetForm(0x00023A92) as ActorBase) ; dog
     ; ActorBase creatureBase = (game.GetFormFromFile(0x01B657,"Dragonborn.esm") as ActorBase) ; ash
     ; ActorBase creatureBase = (game.GetFormFromFile(0x00023ABB,"Skyrim.esm") as ActorBase) ; troll
 
-    ; Update creature list if changed
-    if CreatureList.CreaturesMD5Changed()
-       if !CreatureList.Rebuild()
-            return 
-       endif
-    endif
-
     ; Is a nasty critter
+    Actor creature = None 
     if victum.IsInFaction(SummonNastyCrittersFaction) 
-        DeBug.Notification("Bansihing:"+creature.GetLeveledActorBase().GetName())
-        CreatureList.BanishCreature(victum)
-        return 
-    endif
+        creature = victum
     ; Already has a partner
-    Actor creature = CreatureList.GetVictumFromCreature(victum)
+    else
+        creature = CreatureList.GetVictumFromCreature(victum)
+    endif 
+
     if creature != None
         DeBug.Notification("Bansihing:"+creature.GetLeveledActorBase().GetName())
+        float cost = self.GetBaseObject().GetBaseCost()
+        caster.ModActorValue("magicka", cost)
         CreatureList.BanishCreature(creature)
         return 
     endif
+    caster.ModActorValue("magicka", 95)
 
     ;Actor creature = victum.PlaceActorAtMe(game.GetForm(0x00023A92) as ActorBase) ; dog
     if victum != caster
-        CreatureList.GetCreatureFromVictum(victum)
+        if victum.IsInFaction(SexLabAnimatingFaction) 
+            Debug.Notification("They seem busy.")
+            return
+        endif
+        CreatureList.SummonCreatureFromVictum(victum)
     else
-        ActorBase base = CreatureList.GetCreatureAll()
+        ActorBase base = CreatureList.SummonCreatureAll()
         creature = caster.PlaceActorAtMe(base)
         creature.AddToFaction(SummonNastyCrittersFaction)
     endif
